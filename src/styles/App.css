@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+}
+
+.App {
+    width: 800px;
+    margin-top: 15px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 2px solid grey;
+    margin-top: 10px;
+}
+
+.comment_author {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.comment_buttons {
+    display: flex;
+}
+
+.comment-enter {
+    transform: translateX(-800px);
+    opacity: 0;
+}
+
+.comment-enter-active {
+    transform: translateX(0px);
+    opacity: 1;
+    transition: all 500ms ease-in;
+}
+
+.comment-exit {
+    opacity: 1;
+}
+
+.comment-exit-active {
+    transform: translateX(-800px);
+    opacity: 0;
+    transition: all 500ms ease-in;
+}
+
+.page_sector {
+    margin: 15px 0;
+    display: flex;
+}
+
+.page_button {
+    margin-left: 5px;
+    padding: 3px;
+    text-align: center;
+    width: 40px;
+    cursor: pointer;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+}
+
+.current_page_button {
+    border: 2px solid darkred;
+    font-weight: 700;
+}
+
+.navbar {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background-color: gainsboro;
+}
+
+.navbar_links {
+    margin-left: auto;
+}
+
+.navbar_link {
+    margin-left: 20px;
+}
+
+.navbar_link:hover {
+    color: goldenrod;
+}
+
+.selectBlock {
+    margin: 5px 0 3px;
+}
+
+.label {
+    margin-right: 7px;
+}

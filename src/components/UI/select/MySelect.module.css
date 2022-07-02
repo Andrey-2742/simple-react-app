@@ -1,0 +1,11 @@
+.mySelect {
+    padding: 5px;
+    background-color: paleturquoise;
+    color: #330;
+    border: 1px solid #330;
+    border-radius: 5px;
+}
+
+.mySelect:focus {
+    outline: none;
+}
